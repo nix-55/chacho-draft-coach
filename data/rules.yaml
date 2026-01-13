@@ -1,1 +1,48 @@
+map_modifiers:
+  best: 15
+  strong: 8
+  situational:
+    value: 20
+    conditions:
+      draft_phase: late
+      no_counters: true
 
+mode_modifiers:
+  best: 10
+  very_viable: 6
+  viable: 6
+  situational: 0
+  weak: -6
+
+first_pick:
+  meta_bonus: 5
+  flex_bonus: 4
+  safe_bonus: 3
+  counter_dependent_penalty: -4
+  cheese_penalty: -6
+
+second_pick:
+  counter_bonus: 6
+  punish_bonus: 4
+  low_risk_bonus: 3
+  blind_pick_penalty: -6
+  flex_penalty: -3
+
+risk_by_phase:
+  early: -5
+  mid: 0
+  late: 5
+
+wallbreak:
+  cap: 3.5
+
+burst_by_range:
+  short: 4
+  short_mid: 3
+  mid: 3
+  mid_long: 2
+  long: 1
+
+overlap_penalties:
+  light: -4
+  heavy: -8
