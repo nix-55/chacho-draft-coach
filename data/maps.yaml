@@ -1,1 +1,93 @@
+# Maps data for Chacho Draft Coach
+# No logic, no weights, pure map context
 
+hard_rock_mine:
+  mode: gem_grab
+  type: closed
+  water: false
+  best_picks: []
+  strong_picks:
+    - emz
+    - spike
+    - carl
+    - janet
+    - tara
+    - shade
+    - cordelius
+    - alli
+    - otis
+    - lily
+    - ruffs
+    - frank
+    - mortis
+  situational_picks:
+    - ash
+    - larry&lawrie
+    
+undermine:
+  mode: gem_grab
+  type: mixed_closed
+  water: false
+  best_picks:
+    - gus
+    - otis
+  strong_picks:
+    - rico
+    - amber
+    - charlie
+    - carl
+    - janet
+    - kaze
+    - mina
+    - crow
+    - ruffs
+    - spike
+    - moe
+    - bo
+  situational_picks:
+    - alli
+    - ash
+
+gem_fort:
+  mode: gem_grab
+  type: mixed
+  water: false
+  best_picks: []
+  strong_picks:
+    - emz
+    - spike
+    - ruffs
+    - lily
+    - otis
+    - gus
+    - alli
+    - tara
+    - janet
+    - amber
+  situational_picks:
+    - ash
+
+double_swoosh:
+  mode: gem_grab
+  type: closed
+  water: false
+  best_picks: []
+  strong_picks:
+    - emz
+    - frank
+    - spike
+    - mortis
+    - ruffs
+    - lily
+    - otis
+    - gus
+    - alli
+    - crow
+    - tara
+    - amber
+    - charlie
+    - rico
+    - griff
+    - bo
+  situational_picks:
+    - ash
