@@ -91,3 +91,393 @@ double_swoosh:
     - bo
   situational_picks:
     - ash
+
+kaboom_canyon:
+  mode: heist
+  type: open
+  water: true
+  best_picks:
+    - chuck
+    - mico
+    - eve
+    - melodie
+  strong_picks:
+    - angelo
+    - brock
+    - amber
+    - crow
+    - colt
+  situational_picks:
+    - lily
+
+safe_zone:
+  mode: heist
+  type: open
+  water: true
+  best_picks:
+    - angelo
+    - eve
+    - chuck
+    - mico
+  strong_picks:
+    - brock
+    - melodie
+    - colt
+    - carl
+  situational_picks: []
+
+bridge_too_far:
+  mode: heist
+  type: open
+  water: true
+  best_picks:
+    - melodie
+    - chuck
+    - mico
+  strong_picks:
+    - eve
+    - angelo
+    - piper
+    - nani
+    - brock
+    - otis
+    - mandy
+    - colt
+  situational_picks: []
+
+hot_potato:
+  mode: heist
+  type: closed
+  water: false
+  best_picks:
+    - berry
+    - mico
+    - chuck
+  strong_picks:
+    - r_t
+    - lily
+    - bull
+    - carl
+    - kaze
+    - shade
+    - spike
+    - cordelius
+    - otis
+  situational_picks: []
+
+shooting_star:
+  mode: bounty
+  type: open
+  water: true
+  best_picks:
+    - nani
+  strong_picks:
+    - piper
+    - brock
+    - leon
+    - gus
+    - byron
+    - angelo
+    - gene
+  situational_picks:
+    - melodie
+
+hideout:
+  mode: bounty
+  type: mixed_open
+  water: false
+  best_picks:
+    - gene
+  strong_picks:
+    - piper
+    - gray
+    - belle
+    - gus
+    - brock
+  situational_picks:
+    - buster
+    - ollie
+
+layer_cake:
+  mode: bounty
+  type: mixed
+  water: true
+  best_picks: []
+  strong_picks:
+    - squeak
+    - gene
+    - meeple
+    - alli
+    - lily
+    - mortis
+    - grom
+    - mr_p
+  situational_picks:
+    - buster
+
+dry_season:
+  mode: bounty
+  type: mixed
+  water: false
+  best_picks: []
+  strong_picks:
+    - meeple
+    - squeak
+    - mortis
+    - brock
+    - belle
+    - gus
+    - juju
+    - angelo
+    - mr_p
+  situational_picks:
+    - ollie
+
+triple_dribble:
+  mode: brawl_ball
+  type: closed
+  water: false
+  best_picks:
+    - willow
+  strong_picks:
+    - shade
+    - mortis
+    - carl
+    - cordelius
+    - spike
+  situational_picks: []
+
+pinhole_punt:
+  mode: brawl_ball
+  type: mixed_closed
+  water: false
+  best_picks:
+    - otis
+  strong_picks:
+    - emz
+    - spike
+    - alli
+    - ruffs
+    - squeak
+    - moe
+  situational_picks: []
+
+sneaky_fields:
+  mode: brawl_ball
+  type: closed
+  water: false
+  best_picks: []
+  strong_picks:
+    - frank
+    - otis
+    - crow
+    - rico
+    - griff
+    - emz
+    - spike
+    - shade
+    - hank
+    - mortis
+  situational_picks:
+    - ash
+
+super_beach:
+  mode: brawl_ball
+  type: closed
+  water: false
+  best_picks:
+    - willow
+  strong_picks:
+    - emz
+    - spike
+    - shade
+    - mortis
+    - carl
+    - cordelius
+  situational_picks:
+    - ash
+
+pinball_dreams:
+  mode: brawl_ball
+  type: closed
+  water: false
+  best_picks:
+    - rico
+    - willow
+  strong_picks:
+    - mortis
+    - carl
+    - cordelius
+    - shade
+    - spike
+    - hank
+    - frank
+    - griff
+    - bo
+  situational_picks: []
+
+center_stage:
+  mode: brawl_ball
+  type: closed
+  water: false
+  best_picks:
+    - rico
+  strong_picks:
+    - ash
+    - bull
+    - squeak
+    - griff
+    - carl
+    - moe
+    - otis
+    - ruffs
+    - emz
+    - spike
+    - mortis
+    - frank
+  situational_picks: []
+
+open_business:
+  mode: hot_zone
+  type: mixed
+  water: false
+  best_picks: []
+  strong_picks:
+    - emz
+    - spike
+    - finx
+    - griff
+  situational_picks: []
+
+parallel_plays:
+  mode: hot_zone
+  type: closed
+  water: true
+  best_picks: []
+  strong_picks:
+    - shade
+    - r_t
+    - spike
+    - larry&lawrie
+    - barley
+  situational_picks: []
+
+ring_of_fire:
+  mode: hot_zone
+  type: mixed_open
+  water: true
+  best_picks: []
+  strong_picks:
+    - bo
+    - byron
+    - amber
+    - mortis
+    - barley
+    - emz
+    - squeak
+    - pam
+  situational_picks: []
+
+dueling_beetles:
+  mode: hot_zone
+  type: mixed
+  water: false
+  best_picks:
+    - berry
+  strong_picks:
+    - frank
+    - pam
+    - crow
+    - emz
+    - spike
+    - amber
+    - barley
+  situational_picks: []
+
+goldarm_gulch:
+  mode: knockout
+  type: mixed
+  water: true
+  best_picks: []
+  strong_picks:
+    - squeak
+    - tick
+    - rico
+    - mandy
+    - piper
+    - gus
+    - gene
+    - nani
+    - brock
+    - juju
+    - ruffs
+  situational_picks:
+    - buster
+    - ollie
+
+belles_rock:
+  mode: knockout
+  type: mixed
+  water: false
+  best_picks: []
+  strong_picks:
+    - tick
+    - gray
+    - angelo
+    - piper
+    - grom
+    - belle
+    - mandy
+    - brock
+  situational_picks: []
+
+flaring_phoenix:
+  mode: knockout
+  type: mixed
+  water: true
+  best_picks: []
+  strong_picks:
+    - piper
+    - brock
+    - meeple
+    - juju
+    - squeak
+    - angelo
+    - mandy
+    - belle
+  situational_picks:
+    - lily
+    - alli
+
+out_in_the_open:
+  mode: knockout
+  type: mixed
+  water: true
+  best_picks: []
+  strong_picks:
+    - nani
+    - angelo
+    - byron
+    - brock
+    - belle
+    - squeak
+    - eve
+    - carl
+    - mr_p
+    - meeple
+    - gene
+  situational_picks: []
+
+new_horizons:
+  mode: knockout
+  type: mixed
+  water: true
+  best_picks: []
+  strong_picks:
+    - gus
+    - mr_p
+    - belle
+    - brock
+    - gene
+  situational_picks: []
+  
