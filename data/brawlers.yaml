@@ -1,1 +1,559 @@
+piper:
+  role: sniper
+  tier: S
+  modes:
+    gem_grab: situational
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: weak
+    heist: situational
+  map_pref: open
+  range: long
+  wallbreak: 1.5
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 6
+    burst: 1
+    thrower: 3
+  counters_given:
+    sniper: 3
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - carry
+  notes: "Sniper puro; sufre gap close y throwers en mapas mixed"
 
+nani:
+  role: sniper
+  tier: A+
+  modes:
+    gem_grab: weak
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: weak
+    heist: viable
+  map_pref: open
+  range: long
+  wallbreak: 1
+  crosses_water: false
+  counters_taken:
+    poke: 2
+    thrower: 4
+  counters_given:
+    sniper: 5
+    tank: 2
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - carry
+    - counter_pick
+  notes: "Burst a larga distancia; counter absoluto de snipers"
+
+brock:
+  role: sniper
+  tier: A
+  modes:
+    gem_grab: situational
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: weak
+    heist: best
+  map_pref: open
+  range: long
+  wallbreak: 2
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 3
+    burst: 1
+  counters_given:
+    thrower: 3
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - flex
+  notes: "Control + poke; muy fuerte en Heist abiertos"
+
+mandy:
+  role: sniper
+  tier: B
+  modes:
+    gem_grab: weak
+    bounty: best
+    knockout: viable
+    brawl_ball: weak
+    hot_zone: weak
+    heist: viable
+  map_pref: open
+  range: very_long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 6
+    burst: 1
+    thrower: 3
+  counters_given:
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - carry
+  notes: "Inmóvil; asesinos son hard counter siempre"
+
+belle:
+  role: sniper
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: situational
+    heist: viable
+  map_pref: open
+  range: long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 4
+    burst: 1
+    thrower: 4
+  counters_given:
+    tank: 4
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - flex
+  notes: "Presión constante y mark; castiga tanques"
+
+angelo:
+  role: sniper
+  tier: S
+  modes:
+    gem_grab: weak
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: situational
+    heist: viable
+  map_pref: open
+  range: long
+  wallbreak: 0
+  crosses_water: true
+  counters_taken:
+    poke_superior: 4
+    burst: 1
+    thrower: 4
+    assassin_gap_close: 4
+  counters_given:
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - flex
+  notes: "Sniper dominante en mapas con lagos"
+
+gus:
+  role: sniper
+  tier: S
+  modes:
+    gem_grab: best
+    bounty: best
+    knockout: viable
+    brawl_ball: situational
+    hot_zone: viable
+    heist: weak
+  map_pref: open
+  range: long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 1
+    thrower: 4
+    assassin_gap_close: 3
+  counters_given:
+    control: 3
+    dps: 3
+  synergies:
+    - sustain
+  pick_types:
+    - safe
+  notes: "Sniper resistente; aguanta asesinos mejor que otros"
+
+bea:
+  role: sniper
+  tier: B
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: weak
+    heist: weak
+  map_pref: open
+  range: long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 4
+    burst: 1
+    thrower: 4
+  counters_given:
+    tank: 5
+    control: 3
+    dps: 3
+  synergies: []
+  pick_types:
+    - counter_pick
+  notes: "Especialista anti-tank"
+
+byron:
+  role: sniper
+  tier: S+
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: situational
+    heist: weak
+  map_pref: open
+  range: long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 1
+    thrower: 4
+    assassin_gap_close: 2
+  counters_given:
+    control: 3
+    dps: 3
+  synergies:
+    - sustain
+    - poke
+  pick_types:
+    - flex
+  notes: "Sniper de poke; puede jugar comps sin tanques"
+  
+barley:
+  role: thrower
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: situational
+    brawl_ball: weak
+    hot_zone: best
+    heist: viable
+  map_pref: 
+    - mixed
+    - closed
+  range: indirect
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 5
+    burst: 4
+  counters_given:
+    control: 4
+    dps: 4
+  synergies:
+    - control
+  pick_types:
+    - zone_control
+  notes: "Controla zonas; muy fuerte en choke points"
+
+juju:
+  role: thrower
+  tier: S+
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: viable
+    brawl_ball: situational
+    hot_zone: viable
+    heist: weak
+  map_pref: mixed
+  range: indirect
+  wallbreak: 0
+  crosses_water: true
+  counters_taken:
+    assassin_gap_close: 4
+    burst: 4
+  counters_given:
+    control: 5
+    dps: 4
+    sniper: 3
+  synergies:
+    - lane_pressure
+  pick_types:
+    - flex
+  notes: "Tier S; cruza lagos y domina lanes con ulti"
+
+tick:
+  role: thrower
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: best
+    brawl_ball: weak
+    hot_zone: weak
+    heist: weak
+  map_pref: open
+  range: indirect
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 6
+    burst: 4
+  counters_given:
+    sniper: 5
+    control: 3
+    dps: 3
+  synergies:
+    - control
+  pick_types:
+    - zone_control
+  notes: "Denial extremo; muy frágil a asesinos"
+
+willow:
+  role: thrower
+  tier: A
+  modes:
+    gem_grab: weak
+    bounty: weak
+    knockout: weak
+    brawl_ball: best
+    hot_zone: weak
+    heist: weak
+  map_pref: closed
+  range: indirect
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 4
+    burst: 4
+  counters_given:
+    control: 4
+    dps: 4
+  synergies:
+    - control
+  pick_types:
+    - playmaker
+  notes: "Muy fuerte en BB; ulti decide jugadas"
+
+larry&lawrie:
+  role: thrower
+  tier: A+
+  modes:
+    gem_grab: best
+    bounty: viable
+    knockout: situational
+    brawl_ball: viable
+    hot_zone: situational
+    heist: weak
+  map_pref: mixed
+  range: indirect
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 4
+    burst: 4
+  counters_given:
+    control: 5
+    dps: 3
+    sniper: 3
+    tank: 2
+  synergies:
+    - spawner
+  pick_types:
+    - zone_control
+  notes: "Spawner molesto; presión constante"
+
+grom:
+  role: thrower
+  tier: C
+  modes:
+    gem_grab: weak
+    bounty: viable
+    knockout: viable
+    brawl_ball: weak
+    hot_zone: weak
+    heist: weak
+  map_pref: open
+  range: indirect
+  wallbreak: 0.5
+  crosses_water: false
+  counters_taken:
+    assassin_gap_close: 6
+    burst: 4
+  counters_given:
+    sniper: 4
+    control: 4
+    dps: 3
+  synergies: []
+  pick_types:
+    - situational
+  notes: "Thrower de poke; muy dependiente del mapa"
+
+pam:
+  role: support
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: weak
+    knockout: weak
+    brawl_ball: weak
+    hot_zone: best
+    heist: weak
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+    dps: 3
+    anti_heal: 5
+  counters_given: {}
+  synergies:
+    - sustain
+    - tank
+  pick_types:
+    - synergy_pick
+  notes: "Sustain estable; fuerte en peleas largas"
+
+max:
+  role: support
+  tier: A
+  modes:
+    gem_grab: weak
+    bounty: best
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: weak
+    heist: weak
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+    dps: 3
+  counters_given: {}
+  synergies:
+    - assassin
+    - engage
+  pick_types:
+    - tempo
+  notes: "Speed boost define engages y disengages"
+
+berry:
+  role: support
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: weak
+    knockout: weak
+    brawl_ball: weak
+    hot_zone: best
+    heist: best
+  map_pref: closed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 5
+    burst: 3
+    assassin: 3
+    dps: 4
+  counters_given: {}
+  synergies:
+    - tank
+    - sustain
+  pick_types:
+    - core_synergy
+  notes: "Top tier en HZ y Heist; clave con tanques"
+
+ruffs:
+  role: support
+  tier: S+
+  modes:
+    gem_grab: best
+    bounty: viable
+    knockout: viable
+    brawl_ball: best
+    hot_zone: viable
+    heist: weak
+  map_pref: mixed
+  range: mid_long
+  wallbreak: 1.5
+  crosses_water: false
+  counters_taken:
+    burst: 2
+    sniper: 3
+  counters_given: {}
+  synergies:
+    - tank
+    - control
+  pick_types:
+    - flex
+  notes: "Buffer universal; básicos rebotan en paredes"
+
+jae_yong:
+  role: support
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: weak
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+  counters_given: {}
+  synergies:
+    - tank
+    - dps
+  pick_types:
+    - synergy_pick
+  notes: "Support híbrido; potencia comps de DPS"
+
+doug:
+  role: support
+  tier: C
+  modes:
+    gem_grab: weak
+    bounty: weak
+    knockout: weak
+    brawl_ball: viable
+    hot_zone: viable
+    heist: weak
+  map_pref: closed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 4
+    dps: 5
+    tank: 3
+  counters_given: 
+    assassin: 3
+  synergies:
+    - tank
+  pick_types:
+    - situational
+  notes: "Valor niche; revive útil solo en HZ"
+
+  
