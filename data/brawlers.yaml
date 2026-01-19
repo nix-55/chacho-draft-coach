@@ -260,6 +260,7 @@ barley:
   counters_taken:
     assassin_gap_close: 5
     burst: 4
+    wallbreak: 5
   counters_given:
     control: 4
     dps: 4
@@ -286,6 +287,7 @@ juju:
   counters_taken:
     assassin_gap_close: 4
     burst: 4
+    wallbreak: 4
   counters_given:
     control: 5
     dps: 4
@@ -313,6 +315,7 @@ tick:
   counters_taken:
     assassin_gap_close: 6
     burst: 4
+    wallbreak: 3
   counters_given:
     sniper: 5
     control: 3
@@ -340,6 +343,7 @@ willow:
   counters_taken:
     assassin_gap_close: 4
     burst: 4
+    wallbreak: 4
   counters_given:
     control: 4
     dps: 4
@@ -366,6 +370,7 @@ larry&lawrie:
   counters_taken:
     assassin_gap_close: 4
     burst: 4
+    wallbreak: 4
   counters_given:
     control: 5
     dps: 3
@@ -394,6 +399,7 @@ grom:
   counters_taken:
     assassin_gap_close: 6
     burst: 4
+    wallbreak: 4
   counters_given:
     sniper: 4
     control: 4
@@ -473,6 +479,7 @@ berry:
     burst: 3
     assassin: 3
     dps: 4
+    wallbreak: 6
   counters_given: {}
   synergies:
     - tank
@@ -548,6 +555,7 @@ doug:
     burst: 4
     dps: 5
     tank: 3
+    wallbreak: 4
   counters_given: 
     assassin: 3
   synergies:
@@ -555,5 +563,208 @@ doug:
   pick_types:
     - situational
   notes: "Valor niche; revive útil solo en HZ"
+  
+frank:
+  role: tank
+  tier: S+
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: best
+    hot_zone: best
+    heist: weak
+  map_pref: closed
+  range: short
+  wallbreak: 2
+  crosses_water: false
+  counters_taken:
+    anti_heal: 2
+    burst: 4
+    dps: 4
+    wallbreak: 1
+  counters_given:
+    control: 4
+    tank: 2
+    assassin: 5
+    sniper: 3
+  synergies:
+    - sustain
+    - support
+  pick_types:
+    - core
+  notes: "Tank dominante; si no hay counters decide partidas"
+
+hank:
+  role: tank
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: weak
+    brawl_ball: best
+    hot_zone: viable
+    heist: situational
+  map_pref: close
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 3
+    burst: 4
+    dps: 5
+    wallbreak: 4
+  counters_given:
+    control: 4
+    thrower: 2
+    assassin: 3
+  synergies:
+    - sustain
+  pick_types:
+    - frontline
+  notes: "Presión constante; muy molesto sin hard counters"
+
+buster:
+  role: tank
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: viable
+    brawl_ball: situational
+    hot_zone: weak
+    heist: weak
+  map_pref: mixed
+  range: short_mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 3
+    burst: 3
+    dps: 4
+    wallbreak: 2
+  counters_given:
+    control: 4
+    sniper: 3
+    assassin: 2
+  synergies:
+    - support
+  pick_types:
+    - engage
+  notes: "Buen engage; fuerte en KO y Bounty"
+
+ollie:
+  role: tank
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: situational
+    brawl_ball: best
+    hot_zone: weak
+    heist: weak
+  map_pref: closed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 2
+    burst: 4
+    wallbreak: 2
+    dps: 4
+  counters_given:
+    control: 4
+    sniper: 4
+    control: 4
+    thrower: 3
+  synergies:
+    - engage
+  pick_types:
+    - playmaker
+  notes: "Stuns y movilidad; top en BB"
+
+ash:
+  role: tank
+  tier: S
+  modes:
+    gem_grab: best
+    bounty: situational
+    knockout: weak
+    brawl_ball: best
+    hot_zone: viable
+    heist: weak
+  map_pref: closed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 4
+    dps: 4
+    wallbreak: 3
+    burst: 4
+  counters_given:
+    control: 4
+    sniper: 3
+    assassin: 5
+  synergies:
+    - sustain
+  pick_types:
+    - comfort
+  notes: "Escala con rage; muy fuerte como last pick"
+
+bull:
+  role: tank
+  tier: B
+  modes:
+    gem_grab: weak
+    bounty: weak
+    knockout: weak
+    brawl_ball: viable
+    hot_zone: weak
+    heist: best
+  map_pref: closed
+  range: short
+  wallbreak: 1.5
+  crosses_water: false
+  counters_taken:
+    burst: 4
+    wallbreak: 3
+    dps: 4
+  counters_given:
+    assassin: 6
+    thrower: 3
+  synergies:
+    - engage
+  pick_types:
+    - heist_specialist
+  notes: "Win condition en Heist; engage difícil de frenar"
+
+draco:
+  role: tank
+  tier: A
+  modes:
+    gem_grab: situational
+    bounty: weak
+    knockout: weak
+    brawl_ball: situational
+    hot_zone: best
+    heist: weak
+  map_pref: mixed
+  range: short_mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    anti_heal: 2
+    burst: 3
+    dps: 4
+    wallbreak: 4
+  counters_given:
+    control: 4
+    sniper: 3
+  synergies:
+    - support
+  pick_types:
+    - frontline
+  notes: "Tank moderno; muy fuerte en HZ"
 
   
