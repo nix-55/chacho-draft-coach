@@ -767,4 +767,291 @@ draco:
     - frontline
   notes: "Tank moderno; muy fuerte en HZ"
 
+mortis:
+  role: assassin
+  tier: S+
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: viable
+    brawl_ball: best
+    hot_zone: viable
+    heist: weak
+  map_pref: mixed_closed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    stun: 5
+    dps: 4
+    tank: 4
+    burst: 4
+    wallbreak: 1
+  counters_given:
+    sniper: 6
+    thrower: 6
+    control: 6
+  synergies:
+    - control
+  pick_types:
+    - carry
+  notes: "Assassin dominante; hard counter a snipers y throwers"
+
+lily:
+  role: assassin
+  tier: S
+  modes:
+    gem_grab: best
+    bounty: best
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: weak
+    heist: best
+  map_pref: mixed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 4
+    dps: 4
+    tank: 4
+    wallbreak: 3
+  counters_given:
+    sniper: 5
+    thrower: 3
+    control: 4
+  synergies:
+    - dps
+  pick_types:
+    - flex
+  notes: "Muy fuerte en Heist; alto DPS si no hay counters"
+
+shade:
+  role: assassin
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: weak
+    brawl_ball: best
+    hot_zone: situational
+    heist: viable
+  map_pref: closed
+  range: short
+  wallbreak: 0
+  crosses_water: true
+  counters_taken:
+    burst: 4
+    wallbreak: 4
+    dps: 3
+    tank: 4
+  counters_given:
+    sniper: 4
+    thrower: 5
+    control: 5
+  synergies:
+    - control
+  pick_types:
+    - playmaker
+  notes: "Top en BB; atraviesa lagos y castiga backline"
+
+leon:
+  role: assassin
+  tier: B
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: viable
+    brawl_ball: weak
+    hot_zone: weak
+    heist: weak
+  map_pref: mixed
+  range: short_mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 4
+    dps: 4
+    tank: 6
+  counters_given:
+    sniper: 5
+    control: 4
+  synergies:
+    - control
+  pick_types:
+    - carry
+  notes: "Pick de flanqueo; mejor en Bounty"
+
+mico:
+  role: assassin
+  tier: C
+  modes:
+    gem_grab: weak
+    bounty: situational
+    knockout: situational
+    brawl_ball: weak
+    hot_zone: weak
+    heist: best
+  map_pref: mixed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 6
+    dps: 4
+    tank: 5
+    wallbreak: 6
+  counters_given:
+    thrower: 8
+    sniper: 5
+  synergies:
+    - control
+  pick_types:
+    - carry
+  notes: "Win condition en Heist; movilidad extrema"
+
+kaze:
+  role: assassin
+  tier: A+
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: short_mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+    dps: 4
+    tank: 4
+    wallbreak: 3
+  counters_given:
+    thrower: 5
+    sniper: 4
+    control: 3
+  synergies:
+    - engage
+  pick_types:
+    - flex
+  notes: "Assassin balanceado; castiga backlines frágiles"
+
+kenji:
+  role: assassin
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: weak
+    brawl_ball: best
+    hot_zone: viable
+    heist: weak
+  map_pref: closed
+  range: short
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 4
+    dps: 4
+    tank: 5
+    wallbreak: 3
+  counters_given:
+    sniper: 4
+    thrower: 5
+    control: 3
+  synergies:
+    - control
+  pick_types:
+    - playmaker
+  notes: "Burst melee; muy fuerte en BB"
+
+cordelius:
+  role: assassin
+  tier: S
+  modes:
+    gem_grab: best
+    bounty: weak
+    knockout: weak
+    brawl_ball: best
+    hot_zone: situational
+    heist: best
+  map_pref: mixed
+  range: short_mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+    wallbreak: 2
+    dps: 5
+  counters_given:
+    tank: 6
+    assassin: 4
+    thrower: 4
+  synergies:
+    - control
+  pick_types:
+    - counter_pick
+  notes: "Neutraliza tanques y asesinos con ulti"
+
+melodie:
+  role: assassin
+  tier: B
+  modes:
+    gem_grab: situational
+    bounty: viable
+    knockout: weak
+    brawl_ball: best
+    hot_zone: situational
+    heist: best
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+    wallbreak: 1
+    dps: 5
+    tank: 5
+  counters_given:
+    sniper: 5
+    control: 4
+    thrower: 3
+  synergies:
+    - dps
+  pick_types:
+    - carry
+  notes: "Escala con stacks; muy fuerte en Heist"
+
+alli:
+  role: assassin
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: best
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: weak
+    heist: weak
+  map_pref: mixed
+  range: short
+  wallbreak: 0
+  crosses_water: true
+  counters_taken:
+    burst: 4
+    wallbreak: 5
+    dps: 4
+    tank: 5
+  counters_given:
+    thrower: 6
+    control: 4
+    sniper: 4
+  synergies:
+    - engage
+  pick_types:
+    - carry
+  notes: "Altísima movilidad; hard counter a throwers"
+
   
