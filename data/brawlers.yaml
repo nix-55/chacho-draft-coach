@@ -1054,4 +1054,318 @@ alli:
     - carry
   notes: "Altísima movilidad; hard counter a throwers"
 
-  
+spike:
+  role: dps
+  tier: S+
+  modes:
+    gem_grab: best
+    bounty: situational
+    knockout: situational
+    brawl_ball: best
+    hot_zone: best
+    heist: viable
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    thrower: 4
+    control: 3
+    burst: 3
+    wallbreak: 1
+  counters_given:
+    tank: 6
+    assassin: 6
+  synergies:
+    - control
+  pick_types:
+    - core
+  notes: "DPS universal; assassins no le hacen counter real"
+
+emz:
+  role: dps
+  tier: S+
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: situational
+    brawl_ball: best
+    hot_zone: best
+    heist: viable
+  map_pref: closed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    thrower: 3
+    burst: 3
+    control: 3
+  counters_given:
+    tank: 6
+    assassin: 3
+  synergies:
+    - control
+  pick_types:
+    - core
+  notes: "Top del meta en mapas cerrados; derrite tanques"
+
+shelly:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: weak
+    knockout: weak
+    brawl_ball: best
+    hot_zone: weak
+    heist: weak
+  map_pref: close
+  range: close
+  walbreak: 2
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    burst: 1
+    control: 3
+  counters_given:
+    assassins: 6
+    tank: 6
+  synergies:
+    - control
+  pick_types:
+    - counter_pick
+  notes: "Buen wallbreak y hard counter de assassins y tanks"
+
+griff:
+  role: dps
+  tier: B
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: weak
+    brawl_ball: viable
+    hot_zone: viable
+    heist: weak
+  map_pref: mixed
+  range: mid
+  wallbreak: 2
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    burst: 3
+    control: 3
+  counters_given:
+    tank: 5
+    assassin: 4
+  synergies:
+    - control
+  pick_types:
+    - flex
+  notes: "Buen wallbreak y DPS sostenido"
+
+colt:
+  role: dps
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: situational
+    knockout: weak
+    brawl_ball: viable
+    hot_zone: weak
+    heist: best
+  map_pref: open
+  range: mid_long
+  wallbreak: 2
+  crosses_water: false
+  counters_taken:
+    assassin: 2
+    burst: 2
+    control: 3
+    sniper: 3
+  counters_given:
+    tank: 3
+  synergies:
+    - wallbreak
+  pick_types:
+    - flex
+  notes: "Rompe mapas; alto skill cap"
+
+amber:
+  role: dps
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: weak
+    knockout: weak
+    brawl_ball: situational
+    hot_zone: best
+    heist: weak
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    burst: 3
+    assassin: 4
+  counters_given:
+    control: 4
+    tank: 3
+  synergies:
+    - control
+  pick_types:
+    - flex
+  notes: "Presión constante; fuerte en choke points"
+
+rico:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: best
+    bounty: situational
+    knockout: weak
+    brawl_ball: best
+    hot_zone: weak
+    heist: viable
+  map_pref: closed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    assassin: 3
+    burst: 3
+    sniper: 3
+    thrower: 4
+  counters_given:
+    control: 4
+    tank: 4
+  synergies:
+    - control
+  pick_types:
+    - core
+  notes: "Domina mapas cerrados con rebotes"
+
+carl:
+  role: dps
+  tier: A
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+  counters_given:
+    control: 3
+  synergies:
+    - engage
+  pick_types:
+    - flex
+  notes: "DPS móvil; muy estable en comps mixtas"
+
+moe:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 3
+  counters_given:
+    control: 4
+  synergies:
+    - control
+  pick_types:
+    - flex
+  notes: "DPS moderno; presión constante"
+
+otis:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: best
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    burst: 3
+  counters_given:
+    assassin: 5
+  synergies:
+    - control
+  pick_types:
+    - core
+  notes: "Silencio decide peleas; top en BB"
+
+r_t:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: long
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    burst: 1
+  counters_given:
+    assassin: 6
+    tank: 4
+  synergies:
+    - control
+  pick_types:
+    - counter_pick
+  notes: "Hard counter de asesinos; defensa brutal"
+
+mina:
+  role: dps
+  tier: S
+  modes:
+    gem_grab: viable
+    bounty: viable
+    knockout: viable
+    brawl_ball: viable
+    hot_zone: viable
+    heist: viable
+  map_pref: mixed
+  range: mid
+  wallbreak: 0
+  crosses_water: false
+  counters_taken:
+    sniper: 3
+    burst: 3
+  counters_given:
+    control: 4
+  synergies:
+    - control
+  pick_types:
+    - flex
+  notes: "DPS fuerte del meta; no rompe muros"  
